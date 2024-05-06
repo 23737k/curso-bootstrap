@@ -7,12 +7,30 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Tipos de Containers</title>
+
+  <style>
+    div{
+    height: 250px;
+    background-color: purple;
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    }
+  </style>
+
 </head>
 <body>
   <div class="container">
     .container
+  </div>
+  <div class="container-fluid">
+    .container-fluid
+  </div>
+  <div class="container-lg">
+    <!-- cuando el dispositivo tenga un ancho mayor al breakpoint de lg, va a tener un ancho max, es decir se va a comportar como un "container"
+         cuando tenga un ancho menor, va a ocupar el 100% de la ventana, es decir se va a comportar como un "container-fluid"-->
+    .container-lg
   </div>
 </body>
 </html>
